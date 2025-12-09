@@ -1,0 +1,463 @@
+==== Experiment Log 2025. 12. 09. (화) 18:19:14 KST ====
+[EXP_SEQ] BATCH=128, SEQ_LEN=32
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 78.054 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 23234410208
+Average cycles per slot: 11344927 (32.414 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_SEQ] BATCH=128, SEQ_LEN=48
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 153.009 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 51810086672
+Average cycles per slot: 25297894 (72.280 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_SEQ] BATCH=128, SEQ_LEN=64
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 252.567 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 91690909200
+Average cycles per slot: 44770952 (127.917 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_SEQ] BATCH=128, SEQ_LEN=80
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 404.598 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 142879353984
+Average cycles per slot: 69765310 (199.329 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_SEQ] BATCH=128, SEQ_LEN=96
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 565.551 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 205371248224
+Average cycles per slot: 100278930 (286.511 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_SEQ] BATCH=128, SEQ_LEN=112
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 757.757 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 279169465856
+Average cycles per slot: 136313216 (389.466 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_SEQ] BATCH=128, SEQ_LEN=128
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 941.340 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 364269437568
+Average cycles per slot: 177865936 (508.188 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_BATCH] BATCH=32, SEQ_LEN=128
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 512
+Host total computation time: 245.423 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 91075958416
+Average cycles per slot: 177882731 (508.236 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_BATCH] BATCH=48, SEQ_LEN=128
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 768
+Host total computation time: 341.388 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 136605462176
+Average cycles per slot: 177871696 (508.205 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_BATCH] BATCH=64, SEQ_LEN=128
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 1024
+Host total computation time: 496.527 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 182155638400
+Average cycles per slot: 177886366 (508.247 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_BATCH] BATCH=80, SEQ_LEN=128
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 1280
+Host total computation time: 605.528 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 227684358736
+Average cycles per slot: 177878405 (508.224 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_BATCH] BATCH=96, SEQ_LEN=128
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 1536
+Host total computation time: 726.379 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 273212928128
+Average cycles per slot: 177873000 (508.209 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_BATCH] BATCH=112, SEQ_LEN=128
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 1792
+Host total computation time: 845.629 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 318741734144
+Average cycles per slot: 177869271 (508.198 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_BATCH] BATCH=128, SEQ_LEN=128
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 937.434 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 364270437776
+Average cycles per slot: 177866425 (508.190 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_HD] BATCH=128, SEQ_LEN=32, HEAD_DIM=16
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 77.302 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 23233904352
+Average cycles per slot: 11344680 (32.413 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_HD] BATCH=128, SEQ_LEN=32, HEAD_DIM=24
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 118.055 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 32739268768
+Average cycles per slot: 15985971 (45.674 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_HD] BATCH=128, SEQ_LEN=32, HEAD_DIM=32
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 164.467 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 42236101312
+Average cycles per slot: 20623096 (58.923 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_HD] BATCH=128, SEQ_LEN=32, HEAD_DIM=40
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 167.798 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 51742043568
+Average cycles per slot: 25264670 (72.185 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_HD] BATCH=128, SEQ_LEN=32, HEAD_DIM=48
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 180.724 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 61243175696
+Average cycles per slot: 29903894 (85.440 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_HD] BATCH=128, SEQ_LEN=32, HEAD_DIM=56
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 193.656 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 70745021568
+Average cycles per slot: 34543468 (98.696 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_HD] BATCH=128, SEQ_LEN=32, HEAD_DIM=64
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 233.472 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 80242987584
+Average cycles per slot: 39181146 (111.946 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_NH] BATCH=64, SEQ_LEN=32, NUM_HEADS=12
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 768
+Host total computation time: 95.477 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 30091825904
+Average cycles per slot: 39182065 (111.949 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_NH] BATCH=64, SEQ_LEN=32, NUM_HEADS=16
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 1024
+Host total computation time: 135.552 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 40125690576
+Average cycles per slot: 39185245 (111.958 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_NH] BATCH=64, SEQ_LEN=32, NUM_HEADS=20
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 1280
+Host total computation time: 170.032 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 50154946432
+Average cycles per slot: 39183552 (111.953 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_NH] BATCH=64, SEQ_LEN=32, NUM_HEADS=24
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 1536
+Host total computation time: 200.310 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 60183978544
+Average cycles per slot: 39182278 (111.949 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_NH] BATCH=64, SEQ_LEN=32, NUM_HEADS=28
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 1792
+Host total computation time: 204.448 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 70213185600
+Average cycles per slot: 39181465 (111.947 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_NH] BATCH=64, SEQ_LEN=32, NUM_HEADS=32
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 262.637 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 80242561232
+Average cycles per slot: 39180938 (111.946 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_TL] BATCH=128, SEQ_LEN=64, HEAD_DIM=32, NUM_HEADS=16, NR_TASKLETS=4
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 443.805 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 166702561072
+Average cycles per slot: 81397735 (232.565 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_TL] BATCH=128, SEQ_LEN=64, HEAD_DIM=32, NUM_HEADS=16, NR_TASKLETS=8
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 446.681 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 166702895216
+Average cycles per slot: 81397898 (232.565 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_TL] BATCH=128, SEQ_LEN=64, HEAD_DIM=32, NUM_HEADS=16, NR_TASKLETS=12
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 445.117 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 166702628720
+Average cycles per slot: 81397768 (232.565 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_TL] BATCH=128, SEQ_LEN=64, HEAD_DIM=32, NUM_HEADS=16, NR_TASKLETS=16
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 447.325 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 166702922640
+Average cycles per slot: 81397911 (232.565 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_TL] BATCH=128, SEQ_LEN=64, HEAD_DIM=32, NUM_HEADS=16, NR_TASKLETS=20
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 444.689 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 166702612576
+Average cycles per slot: 81397760 (232.565 ms)
+Host == DPU
+---- RUN END ----
+
+[EXP_TL] BATCH=128, SEQ_LEN=64, HEAD_DIM=32, NUM_HEADS=16, NR_TASKLETS=24
+[0;33mWARNING:[0m This is the last release of the DPU toolchain for ON.
+         Please consider upgrading to a more recent OS.
+         (Suppress this message by setting the environment variable UPMEM_NO_OS_WARNING to 1.)
+---- RUN START ----
+DPUs allocated: 2048
+Host total computation time: 543.496 ms
+
+--- DPU cycles summary ---
+Total cycles (sum over all slots): 166703048672
+Average cycles per slot: 81397973 (232.566 ms)
+Host == DPU
+---- RUN END ----
+
