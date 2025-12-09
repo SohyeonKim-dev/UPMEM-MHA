@@ -234,7 +234,7 @@ seq_rows = filter_rows(batch=128, exp_type="EXP_SEQ")
 plot_graph_from_rows(seq_rows,
                      x_key="seq_len",
                      xlabel="SEQ_LEN",
-                     title="CPU vs UPMEM (Batch=128) - SEQ sweep",
+                     title="CPU vs UPMEM-PIM",
                      filename="seq_bar.png",
                      use_log=False,
                      show_alloc=False)
@@ -243,8 +243,8 @@ plot_graph_from_rows(seq_rows,
 batch_rows = filter_rows(seq=128, exp_type="EXP_BATCH")
 plot_graph_from_rows(batch_rows,
                      x_key="batch",
-                     xlabel="BATCH",
-                     title="CPU vs UPMEM (SEQ_LEN=128) - BATCH sweep",
+                     xlabel="BATCH_SIZE",
+                     title="CPU vs UPMEM-PIM",
                      filename="batch_bar.png",
                      use_log=False,
                      show_alloc=True)
@@ -254,7 +254,7 @@ hd_rows = filter_rows(batch=128, seq=32, exp_type="EXP_HD")
 plot_graph_from_rows(hd_rows,
                      x_key="head_dim",
                      xlabel="HEAD_DIM",
-                     title="CPU vs UPMEM (Batch=128, Seq=32) - HEAD_DIM sweep",
+                     title="CPU vs UPMEM-PIM",
                      filename="headdim_bar.png",
                      use_log=False,
                      show_alloc=False)
@@ -264,7 +264,7 @@ nh_rows = filter_rows(batch=64, seq=32, exp_type="EXP_NH")
 plot_graph_from_rows(nh_rows,
                      x_key="num_heads",
                      xlabel="NUM_HEADS",
-                     title="CPU vs UPMEM (Batch=64, Seq=32) - NUM_HEADS sweep",
+                     title="CPU vs UPMEM-PIM",
                      filename="numheads_bar.png",
                      use_log=False,
                      show_alloc=True)
@@ -274,7 +274,7 @@ tl_rows = filter_rows(exp_type="EXP_TL")
 plot_graph_from_rows(tl_rows,
                      x_key="tasklets",
                      xlabel="NR_TASKLETS",
-                     title="CPU vs UPMEM (NR_TASKLETS sweep)",
+                     title="CPU vs UPMEM-PIM",
                      filename="tasklets_bar.png",
                      use_log=False,
                      show_alloc=False)
